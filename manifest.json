@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "HEXO",
+    "version": "0.1",
+    "description": "배사를 원하는 색으로 바꿔드림.",
+    "icons": {
+      "128":"icon.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "action":{
+        "default_popup":"popup.html"
+    }
+}
