@@ -4,7 +4,7 @@
     "version": "0.1",
     "description": "HEX값을 이미지화 시켜드립니다.",
     "icons": {
-      "128":"icon.png"
+      "128":"iconn.png"
     },
     "permissions": [
         "activeTab"
