@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "HEXO",
     "version": "0.1",
-    "description": "배사를 원하는 색으로 바꿔드림.",
+    "description": "HEX값을 이미지화 시켜드립니다.",
     "icons": {
       "128":"icon.png"
     },
