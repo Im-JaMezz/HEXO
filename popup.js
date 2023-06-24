@@ -15,10 +15,20 @@ function generateImage(hexValue) {
 document.addEventListener('DOMContentLoaded', function() {
     const colorInput = document.getElementById('color-input');
     const generateButton = document.getElementById('generate-button');
+    const colorPicker = document.getElementById('color-picker');
   
     generateButton.addEventListener('click', function() {
       const hexValue = colorInput.value;
       generateImage(hexValue);
     });
+
+    colorPicker.addEventListener('change', function() {
+      const selectedColor = colorPicker.value;
+      colorInput.value = selectedColor;
+    });
+
+    colorInput.addEventListener('input', function() {
+      const colorValue = colorInput.value;
+      colorPicker.value = colorValue;
+    });
 });
-  
