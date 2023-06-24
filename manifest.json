@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "HEXO",
-    "version": "0.1",
+    "version": "2",
     "description": "HEX값을 이미지화 시켜드립니다.",
     "icons": {
       "128":"icon-001.png"
